@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  background-color: #306655;
+  flex-direction: column;
+  display: flex;
+  font-family: "Cardo", serif;
+}
+
+.top-bar {
+  background-color: #4c587c; 
+  font-family: "Send Flowers";
+  font-size: 38px;
+  font-weight: 30px;
+}
+
+.bio-section {
+  margin: 15px;
+  background-color: bisque;
+  height: 75vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.senior-picture-div {
+  margin: 45px;
+}
+
+.senior-picture {
+  width: 20rem;
+  align-items: center;
+
+}
+
+.name {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.information-station {
+  flex-direction: column;
+}
+
+.socials {
+  display: flex;
+}
+
+.left-socials {
+  justify-content: left;
+}
+
+.right-socials {
+  justify-content: right;
+}

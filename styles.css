@@ -2,45 +2,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-  background-color: #306655;
+  background-color: #4c587c;
   flex-direction: column;
   display: flex;
   font-family: "Cardo", serif;
 }
 
 .top-bar {
-  background-color: #4c587c; 
+  background-color: #F5F0F6; 
   font-family: "Send Flowers";
   font-size: 38px;
   font-weight: 30px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .bio-section {
   margin: 15px;
-  background-color: bisque;
-  height: 75vh;
+  background-color: #F5F0F6;
+  height: 55vh;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  padding: 15px;
+  justify-content: center;
 }
 
 .senior-picture-div {
-  margin: 45px;
+  margin: 35px;
+  background-color: #306655;
+  border: 4px solid #4c587c;
+  padding: 24px;
 }
 
 .senior-picture {
-  width: 20rem;
+  width: 18rem;
   align-items: center;
-
 }
 
 .name {
   margin: 10px;
-  font-size: 24px;
+  font-size: 35px;
+  border: 1px solid #4c587c;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .information-station {
   flex-direction: column;
+  border: 4px solid #4c587c;
+  padding: 20px;
+  column-width: 725px;
+  margin-top: 24px;
+  margin-bottom: 35px;
+  margin-right: 24px;
 }
 
 .socials {
@@ -49,8 +64,12 @@ body {
 
 .left-socials {
   justify-content: left;
+  margin: 5px;
+  padding-left: 18px;
 }
 
 .right-socials {
   justify-content: right;
+  margin: 5px;
+  padding-left: 45px;
 }

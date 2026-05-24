@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 
+head {
+  font-size: 5vmin;
+}
 body {
   background-color: #4c587c;
   flex-direction: column;
@@ -11,27 +14,27 @@ body {
 .top-bar {
   background-color: #F5F0F6; 
   font-family: "Send Flowers";
-  font-size: 38px;
-  font-weight: 30px;
-  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
   justify-content: center;
   align-items: center;
 }
 
 .bio-section {
-  margin: 15px;
+  margin: 1rem;
   background-color: #F5F0F6;
-  height: 55vh;
+  height: 66ch;
   display: flex;
-  padding: 15px;
+  padding: 1rem;
   justify-content: center;
 }
 
 .senior-picture-div {
-  margin: 35px;
+  margin: 2rem;
   background-color: #306655;
-  border: 4px solid #4c587c;
-  padding: 24px;
+  border: .25rem solid #4c587c;
+  padding: 1.5rem;
 }
 
 .senior-picture {
@@ -40,36 +43,51 @@ body {
 }
 
 .name {
-  margin: 10px;
-  font-size: 35px;
+  margin: .75rem;
+  font-size: 2rem;
   border: 1px solid #4c587c;
-  padding: 15px;
+  padding: 1rem;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .information-station {
   flex-direction: column;
-  border: 4px solid #4c587c;
+  border: .25rem solid #306655;
   padding: 20px;
-  column-width: 725px;
-  margin-top: 24px;
-  margin-bottom: 35px;
-  margin-right: 24px;
+  column-width: 166rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.75rem;
+  margin-right: 1.5rem;
 }
 
 .socials {
   display: flex;
+  font-size: 1em;
 }
 
 .left-socials {
   justify-content: left;
-  margin: 5px;
-  padding-left: 18px;
+  margin: .25rem;
+  padding-left: 1.25rem;
 }
 
 .right-socials {
   justify-content: right;
-  margin: 5px;
-  padding-left: 45px;
+  margin: .25rem;
+  padding-left: 1.75rem;
+}
+
+.bio-information {
+  font-size: 16px;
+}
+
+.blurb {
+  background-color: #F5F0F6;
+  display: flex;
+  border: .25rem solid #306655;
+  padding: 20px;
+  column-width: 166rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.75rem;
 }
